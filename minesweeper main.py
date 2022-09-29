@@ -8,7 +8,7 @@ while difficulty not in difficulties:
 difficulty_mines = {"easy": 10, "normal": 40, "hard": 99}
 mine_count = difficulty_mines[difficulty]
 length = difficulties[difficulty]
-#making the lists
+
 mines = list()
 flags = list()
 front_map = [["▫" for column in range(length)] for row in range(length)]
